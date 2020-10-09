@@ -34,19 +34,26 @@ The database has 5 tables, which are song_play, songs, users,time, artists.
 
 Fact Table
 songplays - records in log data associated with song plays i.e. records with page NextSong
+
 songplay_id, start_time, userId, level, song_id, artist_id, sessionId, location, userAgent
 
 Dimension Tables
 users - users in the app
+
 userId, first_name, last_name, gender, level
+
 ![users table](/images/users.png)
+
 songs - songs in music database
+
 song_id, title, artist_id, year, duration
 
 artists - artists in music database
+
 artist_id, artist_name, artist_location, artist_latitude, artist_longitude
 
 time - timestamps of records in songplays broken down into specific units
+
 start_time, hour, day, week, month, year, weekday
 
 
