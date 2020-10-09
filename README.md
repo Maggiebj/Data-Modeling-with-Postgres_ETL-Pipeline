@@ -32,32 +32,35 @@ test.ipynb--connect the database and test queries of tables.
 # Database Descriptions<a name="Database"></a>
 The database has 5 tables, which are song_play, songs, users,time, artists. 
 
-Fact Table
-songplays - records in log data associated with song plays i.e. records with page NextSong
+**Fact Table**
+##songplays - records in log data associated with song plays i.e. records with page NextSong
 
-songplay_id, start_time, userId, level, song_id, artist_id, sessionId, location, userAgent
+*songplay_id, start_time, userId, level, song_id, artist_id, sessionId, location, userAgent*
 
-Dimension Tables
-users - users in the app
+**Dimension Tables**
+##users - users in the app
 
-userId, first_name, last_name, gender, level
+*userId, first_name, last_name, gender, level*
 
+![users table](/images/users.png)
 
+##songs - songs in music database
 
-songs - songs in music database
-
-song_id, title, artist_id, year, duration
+*song_id, title, artist_id, year, duration*
 
 ![songs table](/images/songs.png)
 
-artists - artists in music database
+##artists - artists in music database
 
-artist_id, artist_name, artist_location, artist_latitude, artist_longitude
+*artist_id, artist_name, artist_location, artist_latitude, artist_longitude*
 
-time - timestamps of records in songplays broken down into specific units
+![artists table](/images/artists.png)
 
-start_time, hour, day, week, month, year, weekday
+##time - timestamps of records in songplays broken down into specific units
 
+*start_time, hour, day, week, month, year, weekday*
+
+![time table](/images/time.png)
 
 # Results<a name="results"></a>
 The database and tables was establised and were loaded with data extracted and transformed from original json files. 
