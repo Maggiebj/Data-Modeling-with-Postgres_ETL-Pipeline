@@ -1,5 +1,5 @@
 # ETL Pipeline Project
-The project is to create a ETL pipeline which initializes a database and be loaded with data extracting and transforming from songs megadata and users activities log json files. The database serves for Sparkify,a startup company, to easily access and analyze songs and users activities on their music streaming app and help them understanding what songs users are listening to.
+The project is to create a ETL pipeline which initializes a database and inserts tables with data extracting and transforming from songs megadata and users activities log json files. The database serves for Sparkify,a startup company, to easily access and analyze songs and users activities on their music streaming app and help them understanding what songs users are listening to.
 
 ### Table of Contents
 
