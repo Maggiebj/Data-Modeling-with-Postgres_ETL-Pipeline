@@ -42,11 +42,13 @@ users - users in the app
 
 userId, first_name, last_name, gender, level
 
-![users table](/images/users.png)
+
 
 songs - songs in music database
 
 song_id, title, artist_id, year, duration
+
+![songs table](/images/songs.png)
 
 artists - artists in music database
 
