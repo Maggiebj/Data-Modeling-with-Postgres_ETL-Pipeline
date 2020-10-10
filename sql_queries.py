@@ -1,15 +1,15 @@
 # DROP TABLES
 
-songplay_table_drop = "DROP TABLE song_play " 
-user_table_drop = "DROP TABLE users"
-song_table_drop = "DROP TABLE songs"
-artist_table_drop = "DROP TABLE artists"
-time_table_drop = "DROP TABLE time"
+songplay_table_drop = "DROP TABLE IF EXISTS song_play " 
+user_table_drop = "DROP TABLE IF EXISTS users"
+song_table_drop = "DROP TABLE IF EXISTS songs"
+artist_table_drop = "DROP TABLE IF EXISTS artists"
+time_table_drop = "DROP TABLE IF EXISTS time"
 
 # CREATE TABLES
 
 songplay_table_create = ("""
-CREATE TABLE "song_play" (
+CREATE TABLE IF NOT EXISTS "song_play" (
     "songplay_id" SERIAL PRIMARY KEY, 
     "start_time" TIMESTAMP NOT NULL, 
     "userId" SMALLINT NOT NULL, 
